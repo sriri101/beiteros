@@ -7,13 +7,12 @@ import {
   Barcode, Download, UserCheck,
 } from 'lucide-react';
 import CompanyLogo from '../../imports/Layer1';
-import beiterxImg from 'figma:asset/0907afa14beffe47307c9ef608f1b0efa0652477.png';
-import screenHome from 'figma:asset/b2cce03e3723fb81fdb633d11b7a2c2ba45a0f7d.png';
-import screenScan from 'figma:asset/4c597ccab05041a782cec6d5cee9dae389112ae0.png';
-import screenReceipts from 'figma:asset/c8b58d7586d0ab0a06c62e926b8775ed545cff69.png';
-import screenToolbox from 'figma:asset/ff77dc514872551b1ebe195434728c8f82bead97.png';
-import screenWarranty from 'figma:asset/ee84e5edd50073c5e5959b082a5db1e3bfc1b4a9.png';
-import screenRepairs from 'figma:asset/3781c2b5bed588ad78fe164cc911ad7f13a1de57.png';
+import screenHome from '../../imports/b2cce03e3723fb81fdb633d11b7a2c2ba45a0f7d.png';
+import screenScan from '../../imports/4c597ccab05041a782cec6d5cee9dae389112ae0.png';
+import screenReceipts from '../../imports/c8b58d7586d0ab0a06c62e926b8775ed545cff69.png';
+import screenToolbox from '../../imports/ff77dc514872551b1ebe195434728c8f82bead97.png';
+import screenWarranty from '../../imports/ee84e5edd50073c5e5959b082a5db1e3bfc1b4a9.png';
+import screenRepairs from '../../imports/3781c2b5bed588ad78fe164cc911ad7f13a1de57.png';
 import { projectId, publicAnonKey } from '/utils/supabase/info';
 
 const API_BASE = `https://${projectId}.supabase.co/functions/v1/make-server-5c3450e9`;
