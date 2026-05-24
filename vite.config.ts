@@ -12,7 +12,7 @@ const figmaStubPlugin = {
   load(id: string) {
     if (id.startsWith('\0figma-stub:figma:asset/')) {
       // Return a transparent 1x1 PNG data URL for image stubs
-      return `export default 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='`
+      return `export default 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGNgAAIAAAUAAXpeqz8AAAAASUVORK5CYII='`
     }
     if (id.startsWith('\0figma-stub:figma:')) {
       return 'export default {}'
