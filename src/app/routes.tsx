@@ -26,12 +26,19 @@ import WebDistributors from '../distributor/pages/WebDistributors';
 import UnderConstruction from './pages/UnderConstruction';
 import BeiterXLanding from './pages/BeiterXLanding';
 import SetupGuide from './pages/SetupGuide';
+import ChooseStore from './pages/ChooseStore';
 
 export const router = createBrowserRouter([
   // ── BeiterX Landing Page (main) ─────────────────────────────────
   {
     path: '/',
     element: <BeiterXLanding />,
+  },
+
+  // ── App Store chooser (middleware fallback for undetected devices) ─
+  {
+    path: '/choose-store',
+    element: <ChooseStore />,
   },
 
   // ── Google Sheets Setup Guide ────────────────────────────────────
